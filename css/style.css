@@ -1,0 +1,172 @@
+:root {
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+      --light-grey: #dce4e3;
+    --text-color: #084236;
+}
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 25px;
+    background-color: #dce4e3;
+}
+
+.mainMenu{
+    width: 250px;
+    background-color: #18c29c;
+    height: 100vh;
+    transition: all 0.5s ease;
+}
+
+.mainMenu.off{
+    width: 78px;
+    background-color: #18c29c;
+    height: 100vh;
+}
+
+.mainMenu.off ul li a{
+    display: none;
+}
+
+.mainMenu.off ul li {
+    padding-left: 10px;
+}
+
+.mainMenu.off ul li input{
+    display: none;
+}
+
+.mainMenu.off ul li:nth-child(1){
+    background-color: #8ed7c6;
+    border-radius: 8px;
+}
+
+.mainMenu.off .iconS{
+    padding-left: 10px;
+}
+
+.mainMenu.off .icon0{
+    display: none;
+}
+
+.mainMenu.off .profile{
+    width: 78px;
+}
+
+.mainMenu.off .profile .profilepic{
+    display: none;
+}
+
+.mainMenu.off .profile .infocontainer{
+    display: none;
+}
+
+.hamBar{
+    width: 24px;
+    height: 24px;
+}
+
+.mainMenu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainMenu ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    height: 50px;
+    width: 85%;
+
+}
+
+.mainMenu ul li img{
+    padding-left: 10px;
+}
+
+.mainMenu ul li input{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #8ed7c6;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.mainMenu .iconS{
+    position: absolute;
+    margin-left: 0px;
+}
+
+.mainMenu ul li:hover{
+    background-color: #8ed7c6;
+    border-radius: 8px;
+}
+
+.mainMenu ul li a{
+    list-style-type: none;
+    color: inherit;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.one,
+.two,
+.three{
+    background-color: black;
+    height: 3px;
+    width: 90%;
+    margin: 4px auto;
+}
+
+.profile .profilepic{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menuTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 10px 0 29px;
+    margin-bottom: 26.88px;
+}
+
+.profile{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0 5px 0 ;
+    background-color: #8ed7c6;
+    justify-content: space-around;
+    width: 250px;
+    height: 50px;
+    transition: all 0.5s ease;
+}
+
+.infos{
+    font-size: 15px;
+}
+
+.infos2{
+    font-size: 12px;
+}
